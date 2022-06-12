@@ -23,10 +23,10 @@ import java.util.Scanner;
 public class Challange1001 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int A = scanner.nextInt();
-        int B = scanner.nextInt();
-        int X = A + B;
-        String message = String.format("X = %s", X);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int x = a + b;
+        String message = String.format("X = %s", x);
         System.out.println(message);
     }
 }
